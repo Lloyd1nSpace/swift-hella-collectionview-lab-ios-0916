@@ -19,6 +19,11 @@ class HellaDetailViewController: UIViewController {
         viewCustomizations()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        viewCustomizations()
+    }
+    
     func viewCustomizations() {
         view.backgroundColor = newColor
         indexLabel.text = fiboNum

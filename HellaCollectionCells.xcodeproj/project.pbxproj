@@ -58,8 +58,8 @@
 			children = (
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
 				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
-				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
 				6E67F8631E1AB9C200DDCC1B /* HellaDetailViewController.swift */,
+				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
 				1BCF18861DA6D7220045E980 /* Info.plist */,
