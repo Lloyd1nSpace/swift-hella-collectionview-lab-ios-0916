@@ -12,6 +12,7 @@
 		1BCF18801DA6D7220045E980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF187E1DA6D7220045E980 /* Main.storyboard */; };
 		1BCF18821DA6D7220045E980 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18811DA6D7220045E980 /* Assets.xcassets */; };
 		1BCF18851DA6D7220045E980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */; };
+		6E67F8641E1AB9C200DDCC1B /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E67F8631E1AB9C200DDCC1B /* HellaDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BCF18811DA6D7220045E980 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCF18841DA6D7220045E980 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCF18861DA6D7220045E980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E67F8631E1AB9C200DDCC1B /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
 				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
 				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
+				6E67F8631E1AB9C200DDCC1B /* HellaDetailViewController.swift */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
 				1BCF18861DA6D7220045E980 /* Info.plist */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					1BCF18761DA6D7220045E980 = {
@@ -138,6 +141,7 @@
 			files = (
 				1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */,
 				1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */,
+				6E67F8641E1AB9C200DDCC1B /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +185,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +235,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
